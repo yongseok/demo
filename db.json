@@ -1,0 +1,83 @@
+{
+  "orders": [
+    {
+      "orderId": "ORD001",
+      "userId": 101,
+      "items": [
+        { "productId": 1, "quantity": 2, "price": 15000 },
+        { "productId": 2, "quantity": 1, "price": 30000 }
+      ],
+      "shipping": {
+        "address": "서울특별시 강남구 테헤란로 123",
+        "method": "standard",
+        "cost": 3000
+      },
+      "payment": {
+        "method": "card",
+        "status": "completed"
+      }
+    },
+    {
+      "orderId": "ORD002",
+      "userId": 102,
+      "items": [{ "productId": 3, "quantity": 1, "price": 25000 }],
+      "shipping": {
+        "address": "부산광역시 해운대구 센텀중앙로 45",
+        "method": "express",
+        "cost": 7000
+      },
+      "payment": {
+        "method": "bank",
+        "status": "pending"
+      }
+    },
+    {
+      "orderId": "ORD003",
+      "userId": 103,
+      "items": [
+        { "productId": 2, "quantity": 3, "price": 30000 },
+        { "productId": 4, "quantity": 2, "price": 12000 }
+      ],
+      "shipping": {
+        "address": "대구광역시 수성구 동대구로 456",
+        "method": "standard",
+        "cost": 3000
+      },
+      "payment": {
+        "method": "card",
+        "status": "pending"
+      }
+    },
+    {
+      "orderId": "ORD004",
+      "userId": 104,
+      "items": [{ "productId": 5, "quantity": 1, "price": 50000 }],
+      "shipping": {
+        "address": "인천광역시 연수구 송도과학로 27",
+        "method": "express",
+        "cost": 7000
+      },
+      "payment": {
+        "method": "bank",
+        "status": "completed"
+      }
+    },
+    {
+      "orderId": "ORD005",
+      "userId": 105,
+      "items": [
+        { "productId": 1, "quantity": 1, "price": 15000 },
+        { "productId": 3, "quantity": 2, "price": 25000 }
+      ],
+      "shipping": {
+        "address": "광주광역시 북구 첨단과기로 208",
+        "method": "standard",
+        "cost": 3000
+      },
+      "payment": {
+        "method": "card",
+        "status": "completed"
+      }
+    }
+  ]
+}
